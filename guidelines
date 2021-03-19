@@ -1,0 +1,21 @@
+Step 1 : Install aws and terraform in your PC
+
+Step 2: Configure aws user in your PC
+
+Step 3: Once done, Above step fo to directory where task.tf is stored
+
+--> Followe this blog for above steps: https://ghumare64.medium.com/terraform-is-a-secret-towards-cloud-automation-%EF%B8%8F-f9c9463b0304
+--> Change the profile name in code as per your IAM user
+
+here: 
+provider "aws" {
+  region  = "ap-south-1"
+  profile = "Rohit" <------------- Change this IAM user
+}
+
+
+Step 4: Run following commands
+
+--> $ terraform init
+--> $ terraform plan
+--> $ terraform apply --auto-approve
