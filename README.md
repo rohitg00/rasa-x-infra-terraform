@@ -3,14 +3,14 @@ Terraform script to launch RASA X on AWS with just one click.
 
 # Must Follow below given steps to set-up this infrastructure successfully
 
-# Version
-AWS Version: AWS-CLI V2.0
-RASA-X Version: 35.01 release
+## Version
+- AWS Version: AWS-CLI V2.0
+- RASA-X Version: 35.01 release
 
 ## Step 1 : Install aws and terraform in your PC
-Storage: EBS Volume - 100GB
-OS: ubuntu:18.04
-Instance type: t2.large
+- Storage: EBS Volume - 100GB
+- OS: ubuntu:18.04
+- Instance type: t2.large
 
 ## Step 2: Configure aws user in your PC
 --> Follow this blog for above steps: [Terraform code to setup Infrastructure on AWS](https://ghumare64.medium.com/terraform-is-a-secret-towards-cloud-automation-%EF%B8%8F-f9c9463b0304)
