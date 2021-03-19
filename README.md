@@ -13,8 +13,8 @@ Terraform script to launch RASA X on AWS with just one click.
 - Instance type: t2.large
 
 ## Step 2: Configure aws user in your PC
---> Follow this blog for above steps: [Terraform code to setup Infrastructure on AWS](https://ghumare64.medium.com/terraform-is-a-secret-towards-cloud-automation-%EF%B8%8F-f9c9463b0304)
---> Change the profile name in code as per your IAM user
+- Follow this blog for above steps: [Terraform code to setup Infrastructure on AWS](https://ghumare64.medium.com/terraform-is-a-secret-towards-cloud-automation-%EF%B8%8F-f9c9463b0304)
+- Change the profile name in code as per your IAM user
 ```
 provider "aws" {
   region  = "ap-south-1"
